@@ -36,10 +36,6 @@ function setup() {
   valueSliderCreated = false;
   suitSliderCreated = false;
   frameConfirmed = -1;
-  suitSlider = createSlider(0, 3, 0, 0);
-  suitSlider.hide();
-  valueSlider = createSlider(1, 13, 1, 0);
-  valueSlider.hide();
   deck = new Deck(true);
   hand = new Deck(false);
 }
